@@ -1,6 +1,6 @@
 var vRViewPlayer = function(elementIdName, options) {
   console.log('Creating VR View Player');
-  return new VRView.Player(elementIdName, options);
+  return new VRView.Player(elementIdName, options); 
 }
 
 var drawingRoom = vRViewPlayer('#first-vr-example', {
