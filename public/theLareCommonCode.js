@@ -5,7 +5,7 @@ var vRViewPlayer = function(elementIdName, options) {
 
 var drawingRoom = vRViewPlayer('#first-vr-example', {
   // image: 'https://commons.wikimedia.org/wiki/File:Langkawi_Sky_Bridge_Photosphere.jpg',
-  image: 'http://conphotography.com/wp-content/uploads/2015/02/ello-.jpg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Tana_Baru_Cemetery_Photosphere_02.jpg',
   is_stereo: false
 });
 
