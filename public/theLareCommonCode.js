@@ -6,7 +6,7 @@ var vRViewPlayer = function(elementIdName, options) {
 var drawingRoom = vRViewPlayer('#first-vr-example', {
   // image: 'https://commons.wikimedia.org/wiki/File:Langkawi_Sky_Bridge_Photosphere.jpg',
   image: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Tana_Baru_Cemetery_Photosphere_02.jpg',
-  is_stereo: true
+  is_stereo: false
 });
 
 window.addEventListener('load', drawingRoom);
@@ -34,7 +34,13 @@ var setReadyEvents = function(event) {
     radius: 0.10,
     distance: 1
   });
-};
+  
+  drawingRoom.addHotspot('spot4',{
+    pitch:0
+    yaw: 360
+    radius: 0.10
+    distance:1   
+});
 
 var setOnClickEvents = function(event) {
   if (event.id == 'spot1') {
