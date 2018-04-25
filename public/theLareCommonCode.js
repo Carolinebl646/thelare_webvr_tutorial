@@ -16,7 +16,7 @@ var setReadyEvents = function(event) {
 
   drawingRoom.addHotspot('spot1', {
     pitch: -20,
-    yaw: 100,
+    yaw: 10,
     radius: 0.10,
     distance: 3
   });
