@@ -15,21 +15,21 @@ var setReadyEvents = function(event) {
   console.log('adding on "ready" events');
 
   drawingRoom.addHotspot('spot1', {
-    pitch: -20,
+    pitch: 0,
     yaw: -50,
     radius: 0.10,
     distance: 3
   });
 
   drawingRoom.addHotspot('spot2', {
-    pitch: 89,
+    pitch: 0,
     yaw: -100,
     radius: 0.10,
     distance: 1
   });
 
   drawingRoom.addHotspot('spot3', {
-    pitch: 75,
+    pitch: 0,
     yaw: -150,
     radius: 0.10,
     distance: 1
