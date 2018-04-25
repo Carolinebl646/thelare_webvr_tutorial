@@ -29,7 +29,7 @@ var setReadyEvents = function(event) {
   });
 
   drawingRoom.addHotspot('spot3', {
-    pitch: -50,
+    pitch: 75,
     yaw: -150,
     radius: 0.10,
     distance: 1
